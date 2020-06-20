@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 export const UserContext = React.createContext();
 
+//내 어플리케이션 데이터 저장소 context
 const UserContextProvider = ({ children }) => {
     const [user, setUser] = useState({
         name: "Nico",
